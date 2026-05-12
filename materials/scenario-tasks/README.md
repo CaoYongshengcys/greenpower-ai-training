@@ -1,0 +1,80 @@
+# 场景任务卡目录
+
+> **用途**：下午小组实战时，每组领取一张任务卡
+> **使用方式**：8组各选一张，先到先得；允许重复但需换不同目标公司/行业
+
+---
+
+## 场景列表
+
+| 编号 | 场景名称 | 类型 | 难度 | 建议时长 | 文件 |
+|------|---------|------|------|---------|------|
+| S1 | 财报解读与同业对比 | 金融 | ★★★ | 90min | [S1-financial-report.md](S1-financial-report.md) |
+| S2 | IC Memo 草稿生成 | 金融 | ★★★★ | 90min | [S2-ic-memo.md](S2-ic-memo.md) |
+| S3 | 舆情监控简报 | 金融/通用 | ★★ | 90min | [S3-sentiment-monitor.md](S3-sentiment-monitor.md) |
+| S4 | 投资组合月报 | 金融 | ★★★ | 90min | [S4-portfolio-report.md](S4-portfolio-report.md) |
+| S5 | 产业链图谱绘制 | 产业 | ★★★ | 90min | [S5-industry-chain.md](S5-industry-chain.md) |
+| S6 | 商业模式画布生成 | 产业 | ★★★ | 90min | [S6-bmc-generator.md](S6-bmc-generator.md) |
+| S7 | 政策影响评估 | 产业/通用 | ★★★ | 90min | [S7-policy-impact.md](S7-policy-impact.md) |
+| S8 | 竞品功能对比矩阵 | 产业/通用 | ★★ | 90min | [S8-competitor-comparison.md](S8-competitor-comparison.md) |
+| S9 | 会议纪要智能整理 | 通用 | ★★ | 90min | [S9-meeting-minutes.md](S9-meeting-minutes.md) |
+| S10 | 数据故事化汇报 | 通用 | ★★★ | 90min | [S10-data-storytelling.md](S10-data-storytelling.md) |
+| S11 | 商业计划书大纲 | 通用 | ★★★ | 90min | [S11-bp-outline.md](S11-bp-outline.md) |
+| S12 | 行业术语词典 | 通用 | ★★ | 90min | [S12-terminology-dict.md](S12-terminology-dict.md) |
+| S13 | 调研报告生成 | 通用/产业 | ★★★★ | 90min | [S13-research-report.md](S13-research-report.md) |
+
+---
+
+## 选择指南
+
+### 如果您有财务/投资背景
+优先选择：S1、S2、S3、S4
+
+### 如果您有产业/战略背景
+优先选择：S5、S6、S7、S8
+
+### 如果您希望学以致用（最高频场景）
+优先选择：S9、S10、S3
+
+### 如果您喜欢挑战
+优先选择：S13、S2、S10
+
+---
+
+## 选择规则
+
+1. **先到先得**：每组派代表向助教举手抢选
+2. **避免重复**：鼓励不同组选不同场景
+3. **允许重复但需换目标**：如果两组选同一编号，必须选择不同的公司/行业/主题
+4. **助教协调**：如果某类场景过于集中，助教可建议分散
+
+---
+
+## 成果要求（所有场景通用）
+
+每组汇报时需展示：
+
+1. **最终成果**：Agent 生成的最终输出
+2. **Prompt 迭代记录**：至少展示两个版本的 Prompt，说明为什么调整
+3. **翻车记录**：Agent 犯过什么错误？怎么发现的？怎么纠正的？
+4. **心得总结**：1句话总结今天最大的收获
+
+---
+
+## 时间分配建议（90分钟）
+
+| 阶段 | 时长 | 任务 |
+|------|------|------|
+| 准备 | 0-20min | 讨论并确定 Prompt 初稿；准备 Context 材料 |
+| 第一轮 | 20-50min | Agent 执行 + 人工校验 |
+| 迭代 | 50-70min | 根据问题调整 Prompt/Harness |
+| 整理 | 70-90min | 整理最终成果和汇报材料 |
+
+---
+
+## 注意事项
+
+- **完成比完美重要**：90分钟内不要求完美，要求"可用"
+- **鼓励翻车**：翻车是最好的学习材料，不要害怕展示 Agent 的错误
+- **记录过程**：记录员的任务是记录迭代过程，不是记录最终成果
+- **善用模板**：`materials/` 目录下的 Prompt 设计指南、Harness 模板库可直接参考
